@@ -1,6 +1,6 @@
 # Autosave
 
-Autosave a document opened by App X every Y time.
+Autosave a document opened by App `X` every `Y` time.
 
 # Application 
 
