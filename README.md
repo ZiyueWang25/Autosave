@@ -42,12 +42,14 @@ xdotool getwindowfocus getwindowname
 nohup
 ```
 
+5. [nohup: ignoring input and redirecting stderr to stdout](https://unix.stackexchange.com/questions/105840/nohup-ignoring-input-and-redirecting-stderr-to-stdout)
+5. [Add #!/bin/bash](https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash)
 5. Deliverable:
 
 ```
-nohup ./autosave.sh Okular 5m > output
+nohup ./autosave.sh Okular 5m > output.out 2>&1 &
 ```
 
 Caveat:
 
-- I had one panic time when the terminal free :) [LINUX - How to unfreeze after accidentally pressing Ctrl-S in a terminal-Learn in 30 Sec from Microsoft Awarded MVP](https://www.wikitechy.com/technology/unfreeze-accidentally-pressing-ctrl-s-terminal/)
+- I had one panic time when the terminal freezes :) [LINUX - How to unfreeze after accidentally pressing Ctrl-S in a terminal-Learn in 30 Sec from Microsoft Awarded MVP](https://www.wikitechy.com/technology/unfreeze-accidentally-pressing-ctrl-s-terminal/)
